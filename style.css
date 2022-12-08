@@ -1,0 +1,34 @@
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Caveat", cursive;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #555;
+}
+
+.main-header {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+#body-parts-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 3rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#test {
+  background: red;
+}
